@@ -41,7 +41,6 @@ def process_paragraph(paragraph):
         if not sentence.strip():
             continue
             
-        found, avg_len = analyze_sentence(sentence)
         print(f"Sentence {idx}: Found {len(found)} palindrome(s) -> {found} (Avg length: {avg_len:.1f})")
 
 # --- Sample Run ---
