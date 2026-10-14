@@ -8,6 +8,8 @@ def is_palindrome(text):
 
 print("My friend changes this")
 
+print("My friend changes this again!")
+
 def clean_word(word):
     """Strips punctuation and converts to lowercase."""
     cleaned = ""
