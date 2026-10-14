@@ -6,6 +6,8 @@ def is_palindrome(text):
         reversed_text += text[i]
     return text == reversed_text
 
+print("My friend changes this")
+
 def clean_word(word):
     """Strips punctuation and converts to lowercase."""
     cleaned = ""
